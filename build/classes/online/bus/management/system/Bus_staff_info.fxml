@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="online.bus.management.system.Server_pageController">
+    <stylesheets>
+        <URL value="@server_page.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="-4.0" layoutY="2.0" prefHeight="57.0" prefWidth="600.0" text="   Online bus management server">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <MenuBar layoutX="-1.0" layoutY="59.0" prefHeight="25.0" prefWidth="662.0">
+        <menus>
+            <Menu mnemonicParsing="false" text="Home">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="    Bus Info" />
+          <Menu mnemonicParsing="false" text="    Bus Staff Info" />
+            <Menu mnemonicParsing="false" text="    Ticket Info">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="    Travel Information" />
+            <Menu mnemonicParsing="false" text="    Driver info" />
+            <Menu mnemonicParsing="false" text="    About">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <ImageView fitHeight="332.0" fitWidth="740.0" layoutX="-2.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Singapore-Hippo-Bus-800x400-min.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="32.0" layoutY="123.0" prefHeight="44.0" prefWidth="144.0" text="Staff Name" textFill="#8fff05">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="236.0" prefHeight="44.0" prefWidth="144.0" text="Mobile No" textFill="#8fff05">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="180.0" prefHeight="44.0" prefWidth="109.0" text="Staff Id" textFill="#8fff05">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="222.0" layoutY="129.0" prefHeight="32.0" prefWidth="220.0" />
+      <TextField layoutX="222.0" layoutY="186.0" prefHeight="32.0" prefWidth="220.0" />
+      <TextField layoutX="220.0" layoutY="242.0" prefHeight="32.0" prefWidth="220.0" />
+      <Hyperlink layoutX="464.0" layoutY="309.0" prefHeight="32.0" prefWidth="132.0" text="INSERT" textFill="#14d952">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>

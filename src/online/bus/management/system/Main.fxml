@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.embed.swing.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="743.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="online.bus.management.system.MainController">
+   <children>
+      <TextField layoutX="433.0" layoutY="112.0" prefHeight="25.0" prefWidth="174.0" promptText="must fill up" />
+      <TextField layoutX="115.0" layoutY="112.0" prefHeight="25.0" prefWidth="174.0" promptText="must fill up" />
+      <TextField layoutX="433.0" layoutY="178.0" prefHeight="25.0" prefWidth="174.0" promptText="HH : MM" />
+      <Label layoutX="28.0" layoutY="174.0" prefHeight="34.0" prefWidth="61.0" text="Date" textFill="#e31e5e">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="261.0" prefHeight="25.0" prefWidth="74.0" textFill="#e31e5e">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" layoutY="108.0" prefHeight="25.0" prefWidth="74.0" text="To" textFill="#e31e5e">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" layoutY="173.0" prefHeight="25.0" prefWidth="74.0" text="Time" textFill="#e31e5e">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="108.0" prefHeight="34.0" prefWidth="113.0" text="From" textFill="#e31e5e">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="2.0" prefHeight="92.0" prefWidth="757.0" text="         Online bus management system">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="115.0" layoutY="178.0" />
+   </children>
+</AnchorPane>
